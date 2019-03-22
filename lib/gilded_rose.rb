@@ -11,6 +11,7 @@ def update_quality(items)
       end
       item.sell_in -= 1 
     when 'Sulfuras, Hand of Ragnaros'
+    when 
     else
       (item.sell_in > 0 ? item.quality -= 1 :  item.quality -= 2) unless item.quality == 0
       item.sell_in -= 1 
